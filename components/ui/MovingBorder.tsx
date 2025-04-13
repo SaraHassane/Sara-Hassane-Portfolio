@@ -32,7 +32,6 @@ export function Button({
   return (
     <Component
       className={cn(
-        // Dynamic height adjustment
         "relative min-h-[7rem] w-300 overflow-hidden bg-transparent p-[1px] text-xl",
         containerClassName
       )}
@@ -57,7 +56,6 @@ export function Button({
 
       <div
         className={cn(
-          // Ensure wrapping
           "relative flex flex-wrap h-full w-full items-center justify-center border border-slate-800 text-sm text-white antialiased backdrop-blur-xl",
           className
         )}
@@ -84,7 +82,8 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef = useRef<any>();
+  // Fix: Add initial null value to useRef
+  const pathRef = useRef<SVGRectElement | null>(null);
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
@@ -97,11 +96,11 @@ export const MovingBorder = ({
 
   const x = useTransform(
     progress,
-    (val) => pathRef.current?.getPointAtLength(val).x
+    (val) => pathRef.current?.getPointAtLength(val)?.x ?? 0
   );
   const y = useTransform(
     progress,
-    (val) => pathRef.current?.getPointAtLength(val).y
+    (val) => pathRef.current?.getPointAtLength(val)?.y ?? 0
   );
 
   const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;

@@ -52,7 +52,7 @@ const Hero = () => {
           {/* IMAGE ON THE RIGHT */}
           <div className="w-1/2  flex justify-center">
             <Image
-              src="/myimage100.png"
+              src="/SaraHassane.jpeg"
               alt="Developer Picture"
               width={400}
               height={400}

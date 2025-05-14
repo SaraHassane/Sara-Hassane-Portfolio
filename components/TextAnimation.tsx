@@ -9,7 +9,7 @@ const TextAnimation: React.FC = () => {
       useEffect(() => {
         if (!typingRef.current) return;
     
-        const roles = ['Frontend Developer', 'Web Designer', 'UI/UX Designer'];
+        const roles = ['Frontend Developer', 'Backend Developer', 'UI/UX Designer'];
         let currentRoleIndex = 0;
         let currentCharIndex = 0;
         let isDeleting = false;

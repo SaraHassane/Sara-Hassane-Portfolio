@@ -38,7 +38,7 @@ const Hero = () => {
                     position={""}
                   />
                 </a>
-                <a href="/Sara Hassane's Resume.pdf" download>
+                <a href="/Sara_Hassane's_Resume.pdf" download>
                   <MagicButton
                     title="Download CV"
                     icon={""}

@@ -8,6 +8,12 @@ import { MagicButton } from '@/components/ui/MagicButton';
 const Projects = () => {
   const projectItems = [
     {
+      title: "Tic Tac Toe",
+      description: "Built a Tic Tac Toe game using React, highlighting my skills in components, state handling, and responsive design. Includes Player vs. Player mode, real-time win/draw checks, and a restart option.",
+      link: "https://github.com/SaraHassane/Tic-Tac-Toe",
+      imageSrc: "/project6.png",
+    },
+    {
       title: "E-Commerce",
       description: "Full-stack app for auctions. In this project, I learned to set up frameworks, create models, and implement views. The site allows users to create listings, place bids, and manage a watchlist, with admin controls through Django.",
       link: "https://github.com/SaraHassane/An-eBay-like-Auction-Site",

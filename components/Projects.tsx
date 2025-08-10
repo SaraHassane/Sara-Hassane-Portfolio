@@ -7,6 +7,12 @@ import { MagicButton } from './ui/MagicButton';
 const Projects = () => {
   const projectItems = [
     {
+      title: "Almasy Couture Landing Page",
+      description: "A modern landing page design for Almasy Couture, crafted in Figma. The layout blends minimal elegance with striking fashion imagery to reflect the brand’s luxury identity. Smooth scroll navigation ensures a refined, seamless browsing experience.",
+      link: "https://www.figma.com/design/vjLSZJrUP3P1cpfH4Ac1BD/ALMASY-COUTURE-LANDING-PAGE?node-id=1-59&t=2jWbsWDClwZCINmd-1",
+      imageSrc: "/project7.png",
+    },
+    {
       title: "Almasy Bakes",
       description: "This bakery recipes website, built with Django and styled using HTML, CSS, and JavaScript, allows users to explore recipes and share feedback, while admins manage content through the Django admin panel.",
       link: "https://github.com/SaraHassane/Almasy-Bakes",
@@ -18,12 +24,8 @@ const Projects = () => {
       link: "https://www.figma.com/proto/VUUIfFayhV1X8CeLK3Lvo8/ALMASY-COOKIES?node-id=11-9&t=BRmUuVFQzEIOSq6Z-1&starting-point-node-id=11%3A9",
       imageSrc: "/project5.png",
     },
-    {
-      title: "Tic Tac Toe",
-      description: "Built a Tic Tac Toe game using React, highlighting my skills in components, state handling, and responsive design. Includes Player vs. Player mode, real-time win/draw checks, and a restart option.",
-      link: "https://github.com/SaraHassane/Tic-Tac-Toe",
-      imageSrc: "/project6.png",
-    },
+
+    
 
   ];
 

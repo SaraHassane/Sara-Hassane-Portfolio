@@ -7,10 +7,10 @@ import { MagicButton } from './ui/MagicButton';
 const Projects = () => {
   const projectItems = [
     {
-      title: "Almasy Couture Landing Page",
-      description: "A modern landing page design for Almasy Couture, crafted in Figma. The layout blends minimal elegance with striking fashion imagery to reflect the brand’s luxury identity. Smooth scroll navigation ensures a refined, seamless browsing experience.",
+      title: "Almasy Couture – Landing Page",
+      description: "An elegant, high-fidelity Figma design blending fashion photography with a clean, modern layout. Features a striking hero, curated men’s and women’s collections, a brand story section, and a cohesive style guide for a polished, consistent look.",
       link: "https://www.figma.com/design/vjLSZJrUP3P1cpfH4Ac1BD/ALMASY-COUTURE-LANDING-PAGE?node-id=1-59&t=2jWbsWDClwZCINmd-1",
-      imageSrc: "/project7.png",
+      imageSrc: "/ALMASY COUTURE.png",
     },
     {
       title: "Almasy Bakes",

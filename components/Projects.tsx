@@ -20,9 +20,9 @@ const Projects = () => {
     },
     {
       title: "Almasy Cookies",
-      description: "ALMASY COOKIES is a Figma prototype for a cookie business, featuring a simplified homepage and essential menus for a user-friendly experience.",
-      link: "https://www.figma.com/proto/VUUIfFayhV1X8CeLK3Lvo8/ALMASY-COOKIES?node-id=11-9&t=BRmUuVFQzEIOSq6Z-1&starting-point-node-id=11%3A9",
-      imageSrc: "/project5.png",
+      description: "An interactive design concept for Almasy Cookies, showcasing a smooth smart prototype animation that brings the brand to life. The project also includes a thumbnail cover and a style guide with consistent colors and typography, making it easy to build upon.",
+      link: "https://www.figma.com/community/file/1540018431585518550",
+      imageSrc: "/ALMASY COOKIES.png",
     },
 
     
